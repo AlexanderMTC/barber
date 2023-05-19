@@ -232,6 +232,12 @@ body {
   --bg-cta: #fff;
   --color-cta: #808080;
   --color-items: #696871;
+  transition: all 0.3s;
+}
+
+.price__element:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 50px 2px rgb(0, 0, 0, 0.75);
 }
 
 .price__element--best {
