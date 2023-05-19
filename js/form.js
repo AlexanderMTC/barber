@@ -1,5 +1,5 @@
-((d) => {
-  const formFooter = d.querySelector(".footer__form");
+(() => {
+  const formFooter = document.querySelector(".footer__form");
 
   formFooter.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -28,4 +28,4 @@
         }, 3000);
       });
   });
-})(document);
+})();

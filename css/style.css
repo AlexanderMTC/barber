@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: rgb(159, 230, 250, 0.6);
 }
 
 .container {
@@ -137,6 +138,7 @@ body {
 
 .about {
   text-align: center;
+  border-top: thin solid rgba(159, 162, 250, 0.5);
 }
 
 .subtitle {
@@ -616,7 +618,7 @@ body {
   border-radius: 50%;
   font-size: 2.5rem;
   font-weight: bold;
-  background-color: gray;
+  background-color: #808080;
   color: #fff;
   cursor: pointer;
   outline: 0;
