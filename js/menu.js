@@ -6,17 +6,17 @@
 
   openButton.addEventListener("click", () => {
     menu.classList.add("nav__link--show");
-    scrollButton.style.zIndex = -1;
+    scrollButton.style.display = "none";
   });
 
   closeMenu.addEventListener("click", () => {
     menu.classList.remove("nav__link--show");
-    scrollButton.style.zIndex = 100;
+    scrollButton.style.display = "block";
   });
 
   document.addEventListener("click", (e) => {
     if (!e.target.matches(".nav__items a")) return false;
     menu.classList.remove("nav__link--show");
-    scrollButton.style.zIndex = 100;
+    scrollButton.style.display = "block";
   });
 })();
